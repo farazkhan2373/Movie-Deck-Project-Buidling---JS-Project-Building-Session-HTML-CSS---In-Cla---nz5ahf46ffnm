@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Deck</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="App.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+   <!-- HEADER SECTION  -->
+   <header>
+    <a href="/"><h1>Movie Deck</h1></a>
+   </header>
+   
+   <!-- SEARCH BAR SECTION  -->
+   <section id="search-bar">
+    <input type="text" name="search" id="search-bar-input" placeholder="Search by name..." autocomplete="off">
+    <button class="button" id="search-bar-button">Search</button>  
+   </section>
 
+   <!-- SORTING SECTION -->
+   <section id="sorting">
+    <button class="button white-button">Sort by date (oldest to latest)</button>
+    <button class="button white-button">Sort by rating (least to most)</button>
+   </section>
+
+   <!-- TABS SECTION -->
+   <section id="tabs">
+    <button class="button white-button" id="all-tab">All</button>
+    <button class="button white-button" id="favourites-tab">Favourites</button>
+   </section>
+
+   <!-- MOVIES POSTER LIST SECTION -->
+   <section id="movie-list">
+    <article class="movie">
+      <img class="movie-poster" src="https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg" alt="">
+      <section class="movie-details">
+        <h2>Avengers: The Endgame</h2>
+        <p>Ratings: 4</p>
+      </section>
+      <footer>
+        <p>date: date</p>
+        <i class="fa-regular fa-heart like"></i>
+      </footer>
+    </article>
+    <article class="movie">
+      <img class="movie-poster" src="https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg" alt="">
+      <section class="movie-details">
+        <h2>Avengers: The Endgame</h2>
+        <p>Ratings: 4</p>
+      </section>
+      <footer>
+        <p>date: date</p>
+        <i class="fa-regular fa-heart like"></i>
+      </footer>
+    </article>
+    <article class="movie">
+      <img class="movie-poster" src="https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg" alt="">
+      <section class="movie-details">
+        <h2>Avengers: The Endgame</h2>
+        <p>Ratings: 4</p>
+      </section>
+      <footer>
+        <p>date: date</p>
+        <i class="fa-regular fa-heart like"></i>
+      </footer>
+    </article>
+    <article class="movie">
+      <img class="movie-poster" src="https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg" alt="">
+      <section class="movie-details">
+        <h2>Avengers: The Endgame</h2>
+        <p>Ratings: 4</p>
+      </section>
+      <footer>
+        <p>date: date</p>
+        <i class="fa-regular fa-heart like"></i>
+      </footer>
+    </article>
+    <article class="movie">
+      <img class="movie-poster" src="https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg" alt="">
+      <section class="movie-details">
+        <h2>Avengers: The Endgame</h2>
+        <p>Ratings: 4</p>
+      </section>
+      <footer>
+        <p>date: date</p>
+        <i class="fa-regular fa-heart like"></i>
+      </footer>
+    </article>
+    <article class="movie">
+      <img class="movie-poster" src="https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg" alt="">
+      <section class="movie-details">
+        <h2>Avengers: The Endgame</h2>
+        <p>Ratings: 4</p>
+      </section>
+      <footer>
+        <p>date: date</p>
+        <i class="fa-regular fa-heart like"></i>
+      </footer>
+    </article>
+
+   </section>
+
+   <section id="pagination">
+    <button class="button white-button" id="prev">Prev</button>
+    <div id="page-no">0</div>
+    <button class="button white-button" id="next">Next</button>
+  </section>
+
+  <footer id="footer">
+       <p>© 2023 Movie Deck</p>
+  </footer>
+</body>
+</html>
