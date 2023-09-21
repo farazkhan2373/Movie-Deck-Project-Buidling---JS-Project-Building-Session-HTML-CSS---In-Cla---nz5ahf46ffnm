@@ -42,6 +42,7 @@
    border-radius: 4px;
    background-color: #333333;
    color: white;
+   cursor: pointer;
  }
  
  #sorting {
@@ -105,15 +106,38 @@
  
  .like {
    font-size: 20px;
+   cursor: pointer;
+ }
+
+ .red-heart{
+  color: red;
+ }
+
+ 
+ .no-fav{
+   display: none;
+  }
+  .show-no-result{
+    display: block;
+    margin-top: 20px;
+ }
+
+  
+ .no-fav h1{
+   margin-left: 20px;
+   color: #333333;
  }
  
- #pagination {
+ .navigation-buttons {
    display: flex;
-   margin-top: 8px;
+   margin-top: 16px;
    justify-content: center;
    align-items: center;
-   margin-bottom: 8px;
    gap: 8px;
+ }
+
+ .pagination-hidden {
+    display: none;
  }
 
  #footer{
@@ -122,6 +146,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-top: 16px;
  }
 
  #footer p{

@@ -38,14 +38,19 @@
         <button class="button" id="search-bar-button">Search</button>
       </section>
       <section id="sorting">
-        <button class="button button--white">Sort by date</button>
+        <button class="button button--white" id="sort-date-btn">Sort by ascending date</button>
         <button class="button button--white" id="rating-toggle">
-          Sort by rating ascending
+          Sort by lowest rating
         </button>
       </section>
       <section id="tabs">
-        <button class="button button--white">All</button>
-        <button class="button button--white">Favorites</button>
+        <button class="button button--white" id="all-btn">All</button>
+        <button class="button button--white" id="fav-btn">Favorites</button>
+      </section>
+
+
+      <section id="no-fav" class="no-fav">
+        <h1>No Results Found</h1>
       </section>
       <section id="movie-list">
         <!-- <article class="movie">
@@ -60,7 +65,7 @@
           </footer>
         </article> -->
       </section>
-      <section id="pagination">
+      <section id="pagination" class="navigation-buttons">
         <button class="button button--white" id="prev">Prev</button>
         <div id="page-no">0</div>
         <button class="button button--white" id="next">Next</button>
